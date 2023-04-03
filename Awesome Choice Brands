@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Awesome Choice Brands</title>
+    <style>
+      /* CSS styles go here */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        color: blue;
+        text-align: center;
+        animation-name: moveHeader;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes moveHeader {
+        from { transform: translateX(-50%); }
+        to { transform: translateX(50%); }
+      }
+      
+      #myButton {
+        background-color: yellow;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      #subscribeForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      
+      #subscribeForm label {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      #subscribeForm input[type="email"] {
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+        width: 300px;
+        max-width: 100%;
+      }
+      
+      #subscribeForm button[type="submit"] {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #feedbacks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+      }
+      
+      .feedback {
+        background-color: lightgray;
+        padding: 20px;
+        margin: 10px;
+        width: 30%;
+        text-align: center;
+        border-radius: 10px;
+      }
+      
+      .feedback p {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+      
+      #aboutUs {
+        margin-top: 50px;
+        text-align: center;
+      }
+      
+      #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      
+      #contact label {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      #contact input[type="text"], #contact input[type="email"], #contact textarea {
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+        width: 300px;
+        max-width: 100%;
+      }
+      
+      #contact button[type="submit"] {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .social {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
